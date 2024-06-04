@@ -1,3 +1,5 @@
+package structure;
+
 public class Animal{
 	
 	//class variable of type String
