@@ -17,14 +17,14 @@ public class Variables{
 	//The final keyword can be applied to local variables and is equivalent to declaring constants
 	//in other languages. Consider this example:
 	final int y = 10;
-	int x = 20;
+	int x = 20.0;
 	//y = x + 10; // DOES NOT COMPILE - y uses the final keyword. For this reason, line 7 triggers a compiler error since the value cannot be modified
 	
 	
 	public static void main(String... args){
 		String greet = "oldString";
 		changeString(greet);
-		System.out.println(greet); // output - "oldString", String value not changed by method
+		System.out.println(x); // output - "oldString", String value not changed by method
 	}
 	
 	private static void changeString(String oldString){
